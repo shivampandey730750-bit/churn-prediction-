@@ -53,8 +53,8 @@ from src.evaluate_model import (
 # STREAMLIT APP CONFIGURATION
 # -----------------------------------------------------------------------------
 st.set_page_config(
-    page_title="Customer Churn Prediction System",
-    page_icon="🛡️",
+    page_title="ChurnPulse | Customer Churn Prediction System",
+    page_icon="⚡",
     layout="wide",
     initial_sidebar_state="expanded"
 )
@@ -216,11 +216,11 @@ with st.sidebar:
     st.markdown("""
         <div style="display: flex; align-items: center; gap: 12px; margin-bottom: 20px;">
             <div style="background: linear-gradient(135deg, #0284c7, #2563eb); border-radius: 10px; padding: 10px; display: inline-flex;">
-                <span style="font-size: 24px;">🛡️</span>
+                <span style="font-size: 24px;">⚡</span>
             </div>
             <div>
-                <h3 style="margin: 0; font-size: 1.15rem; font-weight: 700; color: #ffffff;">RetainIQ AI</h3>
-                <p style="margin: 0; font-size: 0.75rem; color: #38bdf8;">Churn Intelligence Suite</p>
+                <h3 style="margin: 0; font-size: 1.25rem; font-weight: 700; color: #ffffff;">ChurnPulse</h3>
+                <p style="margin: 0; font-size: 0.75rem; color: #38bdf8;">Churn Intelligence Platform</p>
             </div>
         </div>
     """, unsafe_allow_html=True)
@@ -267,7 +267,7 @@ if page_selection == "🏠 Home Dashboard":
     st.markdown("""
         <div class="hero-banner">
             <h1 style="color: #ffffff; margin: 0 0 8px 0; font-size: 2.2rem; font-weight: 800;">
-                Customer Churn Prediction System
+                ⚡ ChurnPulse — Customer Churn Prediction System
             </h1>
             <p style="color: #cbd5e1; font-size: 1.05rem; margin: 0; max-width: 850px; line-height: 1.6;">
                 An end-to-end Machine Learning intelligence platform designed to detect at-risk customers, 
